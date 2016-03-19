@@ -7,10 +7,10 @@ const redis = require('redis');
 
 class Broker
 {
-  constructor () {
-    if (process.env.REDIS_HOST) {
-      this.client = redis.createClient(process.env.REDIS_HOST,process.env.REDIS_PORT);
-      this.client.auth(process.env.REDIS_PASSWORD);
+  constructor (config) {
+    if (config.host) {
+      this.client = redis.createClient(config.host,config.port);
+      this.client.auth(config.pass);
     } else {
       this.client = redis.createClient();
     }

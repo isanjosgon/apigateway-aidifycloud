@@ -4,12 +4,11 @@
 'use strict'
 
 const restify = require('restify');
-const config = require('../package.json');
 const Response = require('./response');
 
 class Server
 {
-  constructor () {
+  constructor (config,logger) {
     let api = restify.createServer({
       name: config.name,
       version: config.version
@@ -23,8 +22,8 @@ class Server
       response.pong();
     });
 
-    api.listen(process.env.PORT || 5001,function () {
-      // logger.config(config.name + ' up and ready');
+    api.listen(config.port,function () {
+      logger.log(config.name + ' up and ready');
     });
   }
 }
