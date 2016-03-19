@@ -2,3 +2,8 @@
 USERMANAGEMENT_ADDRESS=https://user-adifycloud.herokuapp.com
 STATSMANAGEMENT_ADDRESS=https://stats-adifycloud.herokuapp.com
 ACTIVITYMANAGEMENT_ADDRESS=https://activity-adifycloud.herokuapp.com
+
+# BROKER
+REDIS_HOST=
+REDIS_PORT=
+REDIS_PASSWORD=
