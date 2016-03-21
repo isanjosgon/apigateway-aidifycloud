@@ -20,6 +20,11 @@ module.exports = {
     port : process.env.REDIS_PORT,
     pass : process.env.REDIS_PASSWORD
   },
+  cloud : {
+    userservice : process.env.USERMANAGEMENT_ADDRESS,
+    statsservice : process.env.STATSMANAGEMENT_ADDRESS,
+    activityservice : process.env.ACTIVITYMANAGEMENT_ADDRESS
+  },
   logging : {
     appenders: [{
       type: 'file',

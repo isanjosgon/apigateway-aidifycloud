@@ -4,6 +4,6 @@ STATSMANAGEMENT_ADDRESS=https://stats-adifycloud.herokuapp.com
 ACTIVITYMANAGEMENT_ADDRESS=https://activity-adifycloud.herokuapp.com
 
 # BROKER
-REDIS_HOST=
-REDIS_PORT=
-REDIS_PASSWORD=
+REDIS_HOST=telescopefish.redistogo.com
+REDIS_PORT=9420
+REDIS_PASSWORD=ca251e430e13bc22a3bd0f228977ee9c
