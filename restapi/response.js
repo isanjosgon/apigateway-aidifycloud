@@ -5,8 +5,9 @@
 
 class Response
 {
-  constructor (response) {
+  constructor (response,logger) {
     this.response = response;
+    this.logger = logger;
   }
   ok (res,status) {
     this.response.status(status || 200);
