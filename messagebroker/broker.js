@@ -9,7 +9,7 @@ class Broker
 {
   constructor (config,logger) {
     if (config.host) {
-      this.client = redis.createClient(config.host,config.port);
+      this.client = redis.createClient(config.port,config.host);
       this.client.auth(config.pass);
     } else {
       this.client = redis.createClient();
