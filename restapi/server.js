@@ -8,7 +8,7 @@ const Response = require('./response');
 
 class Server
 {
-  constructor (config,logger,getuser) {
+  constructor (config,logger,getuser,createuser,locateuser) {
     let api = restify.createServer({
       name: config.name,
       version: config.version
@@ -23,9 +23,23 @@ class Server
     });
     api.get('/user/:id',function (req,res) {
       if (logger) {
-        logger.info('request GET : /user/' + JSON.stringify(req.params.id));
+        logger.log('request GET : /user/' + JSON.stringify(req.params.id));
       }
       getuser.execute(req.params,new Response(res,logger));
+    });
+    api.post('/user',function (req,res) {
+      if (logger) {
+        logger.log('request POST : /user');
+        logger.log(JSON.stringify(req.body));
+      }
+      createuser.execute(req.params,new Response(res,logger));
+    });
+    api.post('/user/:id/status',function (req,res) {
+      if (logger) {
+        logger.log('request POST : /user/' + JSON.stringify(req.params.id) + '/status');
+        logger.log(JSON.stringify(req.body));
+      }
+      locateuser.execute(req.params,new Response(res,logger));
     });
 
     api.listen(config.port,function () {
