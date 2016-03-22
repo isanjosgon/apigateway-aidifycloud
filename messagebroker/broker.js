@@ -7,7 +7,7 @@ const redis = require('redis');
 
 class Broker
 {
-  constructor (config,logger,cleancache) {
+  constructor (config,logger,invalidateuser) {
     if (config.host) {
       this.client = redis.createClient(config.port,config.host);
       this.client.auth(config.pass);
@@ -22,7 +22,7 @@ class Broker
         if (logger) {
           logger.log('request MESSAGE : ' + message);
         }
-        cleancache.execute(message.split(':')[1]);
+        invalidateuser.execute(message.split(':')[1]);
       }
     });
   }
