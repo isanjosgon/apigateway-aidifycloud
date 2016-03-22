@@ -23,7 +23,8 @@ module.exports = {
   cloud : {
     userservice : process.env.USERMANAGEMENT_ADDRESS,
     statsservice : process.env.STATSMANAGEMENT_ADDRESS,
-    activityservice : process.env.ACTIVITYMANAGEMENT_ADDRESS
+    activityservice : process.env.ACTIVITYMANAGEMENT_ADDRESS,
+    githubservice : process.env.GITSERVICE_ADDRESS
   },
   logging : {
     appenders: [{
