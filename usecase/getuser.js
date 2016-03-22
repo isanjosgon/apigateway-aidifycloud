@@ -3,6 +3,8 @@
 
 'use strict'
 
+const _ = require('lodash');
+
 class GetUserUseCase
 {
   constructor (repo) {
@@ -12,10 +14,10 @@ class GetUserUseCase
     this.repo
       .findbyId(params.id)
       .then(function (user) {
-        res.ok(user);
+        res.ok && res.ok(user);
       })
       .catch(function (err) {
-        res.ko('Impossible connect to user service');
+        res.ko && res.ko('Impossible connect to user service.');
       });
   }
 }
