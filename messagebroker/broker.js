@@ -7,7 +7,7 @@ const redis = require('redis');
 
 class Broker
 {
-  constructor (config,logger) {
+  constructor (config,logger,cleancache) {
     if (config.host) {
       this.client = redis.createClient(config.port,config.host);
       this.client.auth(config.pass);
@@ -17,8 +17,12 @@ class Broker
     this.client.subscribe('SERVICE:APIGATEWAY');
     this.client.on('message',function (channel,message) {
       let service = channel.split(':')[1];
-      if (service == 'APIGATEWAY') {
-        console.log(message);
+      let action = message.split(':')[0];
+      if (service == 'APIGATEWAY' && action === 'CLEAN_CACHE') {
+        if (logger) {
+          logger.log('request MESSAGE : ' + message);
+        }
+        cleancache.execute(message.split(':')[1]);
       }
     });
   }
