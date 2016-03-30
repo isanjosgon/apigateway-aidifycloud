@@ -13,6 +13,7 @@ class CacheStrategy
       this.client = redis.createClient(rtg.port,rtg.hostname);
       this.client.auth(rtg.auth.split(':')[1]);
     } else {
+		console.log('SIN REDISTOGO_URL');
       this.client = redis.createClient();
     }
   }
