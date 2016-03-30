@@ -36,7 +36,6 @@ class UserRepository
           if (err) {
             return reject(err);
           }
-		  console.log("User retrieved: %j", user);
           resolve(user);
           self.cacheStrategy.insert(user);
         });
