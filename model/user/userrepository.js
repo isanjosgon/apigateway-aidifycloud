@@ -9,14 +9,15 @@ class UserRepository
     this.dataStrategy = dataStrategy;
     this.cacheStrategy = cacheStrategy;
   }
-  create (token) {
+  create (user) {
     const self = this;
     return new Promise(function (resolve,reject) {
-      self.dataStrategy.create(token,function (err,user) {
+      self.dataStrategy.create(user,function (err,result) {
         if (err) {
           return reject(err);
         }
-        resolve(user);
+		
+        resolve(result);
         self.cacheStrategy.insert(user);
       });
     });
@@ -35,6 +36,7 @@ class UserRepository
           if (err) {
             return reject(err);
           }
+		  console.log("User retrieved: %j", user);
           resolve(user);
           self.cacheStrategy.insert(user);
         });

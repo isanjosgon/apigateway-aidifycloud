@@ -11,16 +11,18 @@ class DataStrategy
     this.config = config;
     this.parser = parser;
   }
-  create (token,callback) {
+  create (user,callback) {
     const self = this;
+			console.log("User: %j", user);
     request
       .post(self.config.cloud.githubservice + '/user')
-      .send(token)
+      .send(JSON.stringify(user))
       .end(function (err,res) {
         if (err) {
           return callback(err);
         }
-        callback(self.parser.userfromjson(res.body));
+		
+        callback(null, self.parser.userfromjson(res.body.result));
       });
   }
   getbyId (id,callback) {
@@ -31,7 +33,7 @@ class DataStrategy
         if (err) {
           return callback(err);
         }
-        callback(self.parser.userfromjson(res.body));
+        callback(null, self.parser.userfromjson(res.body.result));
       });
   }
   locate (id,status) {
@@ -43,7 +45,7 @@ class DataStrategy
         if (err) {
           return callback(err);
         }
-        callback(res.body);
+        callback(null, res.body);
       });
   }
 }

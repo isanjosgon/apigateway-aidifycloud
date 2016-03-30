@@ -32,7 +32,7 @@ class Server
         logger.log('request POST : /user');
         logger.log(JSON.stringify(req.body));
       }
-      createuser.execute(req.params,new Response(res,logger));
+      createuser.execute(JSON.parse(req.body),new Response(res,logger));
     });
     api.post('/user/:id/status',function (req,res) {
       if (logger) {
