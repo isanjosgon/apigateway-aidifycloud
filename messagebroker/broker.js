@@ -8,13 +8,10 @@ const redis = require('redis');
 class Broker
 {
   constructor (config,logger,invalidateuser) {
-	  console.log("Config: %j", config);
     if (config.host) {
-		console.log("Config: %s", config.host);
       this.client = redis.createClient(config.port,config.host);
       this.client.auth(config.pass);
     } else {
-		console.log("Sin host");
       this.client = redis.createClient();
     }
     this.client.subscribe('SERVICE:APIGATEWAY');

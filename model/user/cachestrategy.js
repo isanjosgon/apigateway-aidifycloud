@@ -8,14 +8,16 @@ const redis = require('redis');
 class CacheStrategy
 {
   constructor (config) {
-    if (process.env.REDISTOGO_URL) {
+    /*if (process.env.REDISTOGO_URL) {
       let rtg = require('url').parse(process.env.REDISTOGO_URL);
       this.client = redis.createClient(rtg.port,rtg.hostname);
-      this.client.auth(rtg.auth.split(':')[1]);
-    } else {
-		console.log('SIN REDISTOGO_URL');
+      this.client.auth(rtg.auth.split(':')[1]);*/
+      this.client = redis.createClient(process.env.REDIS_PORT,process.env.REDIS_HOST);
+      this.client.auth(process.env.REDIS_PASSWORD);
+	  console.log("REDIS CACHE STARTED");
+    /*} else {
       this.client = redis.createClient();
-    }
+    }*/
   }
   fetch (id,callback) {
     this.client.get('user:' + id,function (err,res) {
