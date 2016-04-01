@@ -18,7 +18,7 @@ class UserRepository
         }
 		
         resolve(result);
-        self.cacheStrategy.insert(user);
+        //self.cacheStrategy.insert(user);
       });
     });
   }
@@ -37,7 +37,7 @@ class UserRepository
             return reject(err);
           }
           resolve(user);
-          self.cacheStrategy.insert(user);
+          //self.cacheStrategy.insert(user);
         });
       });
     });
