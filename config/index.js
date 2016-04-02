@@ -26,6 +26,9 @@ module.exports = {
     activityservice : process.env.ACTIVITYMANAGEMENT_ADDRESS,
     githubservice : process.env.GITSERVICE_ADDRESS
   },
+  cache: {
+	active: process.env.CACHE_ACTIVE === 'true'
+  },
   logging : {
     appenders: [{
       type: 'file',

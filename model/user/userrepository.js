@@ -18,14 +18,14 @@ class UserRepository
         }
 		
         resolve(result);
-        //self.cacheStrategy.insert(user);
+        self.cacheStrategy.insert(user);
       });
     });
   }
   findbyId (id) {
-    const self = this;
+    let self = this;
     return new Promise(function (resolve,reject) {
-      self.cacheStrategy.fetch(id,function (err,user) {
+      self.cacheStrategy.fetch(id, function (err,user) {
         if (err) {
           return reject(err);
         }
@@ -34,10 +34,11 @@ class UserRepository
         }
         self.dataStrategy.getbyId(id,function (err,user) {
           if (err) {
+			console.log("err %j", err);
             return reject(err);
           }
           resolve(user);
-          //self.cacheStrategy.insert(user);
+          self.cacheStrategy.insert(user);
         });
       });
     });

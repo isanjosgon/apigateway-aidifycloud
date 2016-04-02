@@ -23,7 +23,7 @@ class Server
     });
     api.get('/user/:id',function (req,res) {
       if (logger) {
-        logger.log('request GET : /user/' + JSON.stringify(req.params.id));
+        logger.log('request GET : /user/' + req.params.id);
       }
       getuser.execute(req.params,new Response(res,logger));
     });

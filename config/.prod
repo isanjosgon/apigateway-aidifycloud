@@ -2,9 +2,13 @@
 GITSERVICE_ADDRESS=https://github-aidifycloud.herokuapp.com
 USERMANAGEMENT_ADDRESS=https://user-aidifycloud.herokuapp.com
 STATSMANAGEMENT_ADDRESS=https://stats-aidifycloud.herokuapp.com
-ACTIVITYMANAGEMENT_ADDRESS=https://activity-aidifycloud.herokuapp.com
+#ACTIVITYMANAGEMENT_ADDRESS=https://activity-aidifycloud.herokuapp.com
+ACTIVITYMANAGEMENT_ADDRESS=localhost:5003
 
 # BROKER
 REDIS_HOST=telescopefish.redistogo.com
 REDIS_PORT=9420
 REDIS_PASSWORD=ca251e430e13bc22a3bd0f228977ee9c
+
+# CACHE
+CACHE_ACTIVE=false

@@ -4,11 +4,15 @@
 'use strict'
 
 const User = require('./user');
+const _ = require('lodash');
+const activityMapper = require('./activitymapper');
 
 exports.userfromjson = function (json)
 {
-  return new User(
-    json['id'],
-    json['login']
-  );
+	
+	return new User(
+		json['id'],
+		json['login'],
+		_.map(json['activities'], activityMapper.activityfromjson)
+	);
 }

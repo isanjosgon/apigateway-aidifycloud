@@ -12,20 +12,27 @@ class CacheStrategy
       let rtg = require('url').parse(process.env.REDISTOGO_URL);
       this.client = redis.createClient(rtg.port,rtg.hostname);
       this.client.auth(rtg.auth.split(':')[1]);*/
-      this.client = redis.createClient(process.env.REDIS_PORT,process.env.REDIS_HOST);
-      this.client.auth(process.env.REDIS_PASSWORD);
-	  console.log("REDIS CACHE STARTED");
+      this.client = redis.createClient(config.messagebroker.port, config.messagebroker.host);
+      this.client.auth(config.messagebroker.pass);
+	  console.log("REDIS CACHE STARTED: %j", config.cache);
+	  this.config = config.cache;
     /*} else {
       this.client = redis.createClient();
     }*/
   }
-  fetch (id,callback) {
+  fetch(id, callback) {
+	if (!this.config.active) {
+		return callback(null, null);
+	}
     this.client.get('user:' + id,function (err,res) {
-      callback(err,JSON.parse(res));
+      callback(err, JSON.parse(res));
     });
   }
   insert (user,callback) {
-    this.client.set('user:' + user.id,JSON.stringify(user),callback);
+	  
+	if (!this.config.active) {
+		this.client.set('user:' + user.name,JSON.stringify(user),callback);
+	}
   }
   invalidate (id,callback) {
     this.client.del('user:' + id,callback);

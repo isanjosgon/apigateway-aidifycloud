@@ -11,13 +11,14 @@ class GetUserUseCase
     this.repo = repo;
   }
   execute (params,res) {
+		console.log("User: " + params.id);
     this.repo
       .findbyId(params.id)
       .then(function (user) {
-        res.ok && res.ok(user);
+        res && res.ok(user);
       })
       .catch(function (err) {
-        res.ko && res.ko('Impossible connect to user service.');
+        res && res.ko(err);
       });
   }
 }

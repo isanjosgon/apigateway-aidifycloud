@@ -29,11 +29,28 @@ class DataStrategy
     const self = this;
     request
       .get(self.config.cloud.userservice + '/user/' + id)
-      .end(function (err,res) {
+      .end(function (err, res) {
         if (err) {
           return callback(err);
         }
-        callback(null, self.parser.userfromjson(res.body.result));
+
+		let user = res.body.result;
+		if (!user) {
+			return callback({message: 'User not found'});
+		}
+		
+		request
+			.get(self.config.cloud.activityservice + '/activity')
+			.query({ user: user.login})
+			.end(function(err, res) {
+				if (err) {
+					callback(null, self.parser.userfromjson(user));
+				}
+				
+				console.log("Activities: %j", res.body);
+				user.activities = res.body.result;
+				callback(null, self.parser.userfromjson(user));
+			});
       });
   }
   locate (id,status) {
