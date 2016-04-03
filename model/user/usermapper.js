@@ -19,15 +19,24 @@ exports.userfromjson = function(json)
 		json['id'],
 		json['login'],
 		json['location'],
+		json['avatar'],
 		activities
 	);
 }
 
-exports.apiToService = function(user) {
+exports.apiToUpdateService = function(user) {
 	
 	return {
 		id: user.id,
 		login: user.name,
-		location: user.location
+		location: user.location,
+		avatar: user.avatar
+	};
+}
+
+exports.apiToCreateService = function(user) {
+	
+	return {
+		login: user.username
 	};
 }

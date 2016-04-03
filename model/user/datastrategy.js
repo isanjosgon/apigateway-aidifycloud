@@ -11,11 +11,11 @@ class DataStrategy
     this.config = config;
     this.parser = parser;
   }
-  create(user,callback) {
+  create(user, callback) {
     const self = this;
     request
       .post(self.config.cloud.githubservice + '/user')
-      .send(JSON.stringify(user))
+      .send(JSON.stringify(self.parser.apiToCreateService(user)))
       .end(function (err,res) {
         if (err) {
           return callback(err);
@@ -29,7 +29,7 @@ class DataStrategy
 	  const self = this;
 	  request
 		.put(self.config.cloud.userservice + '/user/' + user.id)
-		.send(JSON.stringify(self.parser.apiToService(user)))
+		.send(JSON.stringify(self.parser.apiToUpdateService(user)))
 		.end(function(err, res) {
 			if(err) {
 				return callback(err);

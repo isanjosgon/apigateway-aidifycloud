@@ -1,92 +1,278 @@
-[2016-04-03 19:31:15.635] [INFO] info - apigateway up and ready
-[2016-04-03 19:34:08.505] [INFO] info - apigateway up and ready
-[2016-04-03 19:35:48.812] [INFO] info - apigateway up and ready
-[2016-04-03 19:36:43.873] [INFO] info - apigateway up and ready
-[2016-04-03 19:38:29.019] [INFO] info - apigateway up and ready
-[2016-04-03 19:38:51.725] [INFO] info - request GET : /user/6587588
-[2016-04-03 19:39:47.118] [INFO] info - request GET : /user/6587588
-[2016-04-03 19:39:59.526] [INFO] info - request GET : /user/6587588
-[2016-04-03 19:40:47.080] [INFO] info - apigateway up and ready
-[2016-04-03 19:40:52.536] [INFO] info - request GET : /user/6587588
-[2016-04-03 19:43:27.454] [INFO] info - apigateway up and ready
-[2016-04-03 19:43:42.483] [INFO] info - apigateway up and ready
-[2016-04-03 19:44:12.517] [INFO] info - apigateway up and ready
-[2016-04-03 19:45:26.208] [INFO] info - request GET : /user/10533417
-[2016-04-03 19:45:35.393] [INFO] info - request GET : /user/6587588
-[2016-04-03 19:49:12.948] [INFO] info - apigateway up and ready
-[2016-04-03 19:51:28.127] [INFO] info - apigateway up and ready
-[2016-04-03 19:51:43.141] [INFO] info - apigateway up and ready
-[2016-04-03 19:52:48.239] [INFO] info - apigateway up and ready
-[2016-04-03 19:52:53.286] [INFO] info - apigateway up and ready
-[2016-04-03 19:52:58.277] [INFO] info - apigateway up and ready
-[2016-04-03 19:54:48.418] [INFO] info - apigateway up and ready
-[2016-04-03 19:56:38.592] [INFO] info - apigateway up and ready
-[2016-04-03 19:56:53.585] [INFO] info - apigateway up and ready
-[2016-04-03 20:00:03.850] [INFO] info - apigateway up and ready
-[2016-04-03 20:05:36.064] [INFO] info - apigateway up and ready
-[2016-04-03 21:05:27.407] [INFO] info - apigateway up and ready
-[2016-04-03 21:05:30.870] [INFO] info - request GET : /user/6587588
-[2016-04-03 21:05:53.747] [INFO] info - request GET : /user/6587588
-[2016-04-03 21:07:09.293] [INFO] info - request GET : /user/6587588
-[2016-04-03 21:07:47.744] [INFO] info - apigateway up and ready
-[2016-04-03 21:07:57.735] [INFO] info - apigateway up and ready
-[2016-04-03 21:07:58.293] [INFO] info - request GET : /user/6587588
-[2016-04-03 21:08:47.805] [INFO] info - apigateway up and ready
-[2016-04-03 21:08:50.187] [INFO] info - request GET : /user/6587588
-[2016-04-03 21:09:27.885] [INFO] info - apigateway up and ready
-[2016-04-03 21:10:47.988] [INFO] info - apigateway up and ready
-[2016-04-03 21:11:23.027] [INFO] info - apigateway up and ready
-[2016-04-03 21:11:25.444] [INFO] info - request GET : /user/6587588
-[2016-04-03 21:11:53.074] [INFO] info - apigateway up and ready
-[2016-04-03 21:13:43.225] [INFO] info - apigateway up and ready
-[2016-04-03 21:13:44.530] [INFO] info - request GET : /user/6587588
-[2016-04-03 21:14:43.962] [INFO] info - request PUT : /user/6587588
-[2016-04-03 21:14:43.962] [INFO] info - "{\n    \"id\": 6587588,\n    \"login\": \"Adriano90\",\n    \"location\": \"notworking\"\n}"
-[2016-04-03 21:15:38.390] [INFO] info - apigateway up and ready
-[2016-04-03 21:15:53.399] [INFO] info - apigateway up and ready
-[2016-04-03 21:15:57.620] [INFO] info - request PUT : /user/6587588
-[2016-04-03 21:15:57.620] [INFO] info - "{\n    \"id\": 6587588,\n    \"login\": \"Adriano90\",\n    \"location\": \"notworking\"\n}"
-[2016-04-03 21:16:58.490] [INFO] info - apigateway up and ready
-[2016-04-03 21:17:46.068] [INFO] info - request PUT : /user/6587588
-[2016-04-03 21:17:46.069] [INFO] info - "{\n    \"id\": 6587588,\n    \"login\": \"Adriano90\",\n    \"location\": \"notworking\"\n}"
-[2016-04-03 21:19:08.687] [INFO] info - apigateway up and ready
-[2016-04-03 21:21:48.172] [INFO] info - request PUT : /user/6587588
-[2016-04-03 21:21:48.172] [INFO] info - "{\n    \"id\": 6587588,\n    \"login\": \"Adriano90\",\n    \"location\": \"notworking\"\n}"
-[2016-04-03 21:22:54.001] [INFO] info - apigateway up and ready
-[2016-04-03 21:26:44.342] [INFO] info - apigateway up and ready
-[2016-04-03 21:28:24.471] [INFO] info - apigateway up and ready
-[2016-04-03 21:29:44.613] [INFO] info - apigateway up and ready
-[2016-04-03 21:29:54.633] [INFO] info - apigateway up and ready
-[2016-04-03 21:30:54.687] [INFO] info - apigateway up and ready
-[2016-04-03 21:31:12.797] [INFO] info - request PUT : /user/6587588
-[2016-04-03 21:31:12.798] [INFO] info - "{\n    \"id\": 6587588,\n    \"login\": \"Adriano90\",\n    \"location\": \"notworking\"\n}"
-[2016-04-03 21:31:13.744] [INFO] info - request PUT : /user/6587588
-[2016-04-03 21:31:13.744] [INFO] info - "{\n    \"id\": 6587588,\n    \"login\": \"Adriano90\",\n    \"location\": \"notworking\"\n}"
-[2016-04-03 21:31:44.768] [INFO] info - apigateway up and ready
-[2016-04-03 21:31:47.820] [INFO] info - request PUT : /user/6587588
-[2016-04-03 21:31:47.820] [INFO] info - "{\n    \"id\": 6587588,\n    \"login\": \"Adriano90\",\n    \"location\": \"notworking\"\n}"
-[2016-04-03 21:31:56.683] [INFO] info - request GET : /user/6587588
-[2016-04-03 21:32:29.825] [INFO] info - apigateway up and ready
-[2016-04-03 21:32:36.637] [INFO] info - request PUT : /user/6587588
-[2016-04-03 21:32:36.637] [INFO] info - "{\n    \"id\": 6587588,\n    \"login\": \"Adriano90\",\n    \"location\": \"notworking\"\n}"
-[2016-04-03 21:32:49.842] [INFO] info - apigateway up and ready
-[2016-04-03 21:33:34.939] [INFO] info - apigateway up and ready
-[2016-04-03 21:33:37.845] [INFO] info - request PUT : /user/6587588
-[2016-04-03 21:33:37.845] [INFO] info - "{\n    \"id\": 6587588,\n    \"login\": \"Adriano90\",\n    \"location\": \"notworking\"\n}"
-[2016-04-03 21:34:04.937] [INFO] info - apigateway up and ready
-[2016-04-03 21:34:06.483] [INFO] info - request PUT : /user/6587588
-[2016-04-03 21:34:06.483] [INFO] info - "{\n    \"id\": 6587588,\n    \"login\": \"Adriano90\",\n    \"location\": \"notworking\"\n}"
-[2016-04-03 21:34:15.639] [INFO] info - request GET : /user/6587588
-[2016-04-03 21:34:55.045] [INFO] info - apigateway up and ready
-[2016-04-03 21:35:01.128] [INFO] info - request PUT : /user/6587588
-[2016-04-03 21:35:01.128] [INFO] info - "{\n    \"id\": 6587588,\n    \"login\": \"Adriano90\",\n    \"location\": \"working\"\n}"
-[2016-04-03 21:35:25.109] [INFO] info - apigateway up and ready
-[2016-04-03 21:35:39.263] [INFO] info - request PUT : /user/6587588
-[2016-04-03 21:35:39.263] [INFO] info - "{\n    \"id\": 6587588,\n    \"login\": \"Adriano90\",\n    \"location\": \"vvworking\"\n}"
-[2016-04-03 21:36:30.155] [INFO] info - apigateway up and ready
-[2016-04-03 21:36:45.193] [INFO] info - apigateway up and ready
-[2016-04-03 21:36:55.797] [INFO] info - request PUT : /user/6587588
-[2016-04-03 21:36:55.797] [INFO] info - "{\n    \"id\": 6587588,\n    \"login\": \"Adriano90\",\n    \"location\": \"working\"\n}"
-[2016-04-03 21:38:30.319] [INFO] info - apigateway up and ready
-[2016-04-03 21:38:38.382] [INFO] info - request PUT : /user/6587588
-[2016-04-03 21:38:38.382] [INFO] info - "{\n    \"id\": 6587588,\n    \"login\": \"Adriano90\",\n    \"location\": \"working\"\n}"
+[2016-04-03 22:06:31.677] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.677] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.679] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.679] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.681] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.681] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.682] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.682] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.684] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.684] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.684] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.684] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.684] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.684] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.684] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.684] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.684] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.684] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.684] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.684] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.684] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.684] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.684] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.684] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.684] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.684] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.684] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.684] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.700] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.700] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.700] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.700] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.700] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.700] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.700] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.700] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.700] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.700] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.700] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.700] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.700] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.700] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.700] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.700] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.700] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.700] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.700] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.700] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.700] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.700] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.716] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.716] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.716] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.716] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.716] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.716] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.716] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.716] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.716] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.716] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.716] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.716] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.716] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.716] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.716] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.716] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.716] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.716] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.716] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.716] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.716] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.716] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.731] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.731] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.731] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.731] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.731] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.731] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.731] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.731] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.731] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.731] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.731] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.731] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.731] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.731] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.731] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.731] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.731] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.731] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.731] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.731] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.731] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.731] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.747] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.747] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.747] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.747] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.747] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.747] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.747] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.747] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.747] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.747] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.747] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.747] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.747] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.747] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.747] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.747] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.747] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.747] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.747] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.747] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.747] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.747] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.763] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.763] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.763] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.763] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.763] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.763] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.763] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.763] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.763] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.763] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.763] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.763] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.763] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.763] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.763] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.763] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.763] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.763] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.763] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.763] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.763] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.763] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.779] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.779] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.780] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.781] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.782] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.782] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.783] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.784] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.785] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.785] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.785] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.785] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.785] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.785] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.789] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.789] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.789] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.789] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.789] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.789] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.793] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.793] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.793] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.793] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.793] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.793] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.797] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.797] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.797] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.797] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.797] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.797] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.801] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.801] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.801] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.801] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.805] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.805] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.805] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.805] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.805] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.805] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.805] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.805] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.805] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.805] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.805] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.805] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.805] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.805] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.805] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.805] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.805] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.805] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.805] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.805] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.805] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.805] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.821] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.821] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.821] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.821] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.821] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.821] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.821] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.821] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.821] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.821] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.821] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.821] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.821] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.821] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.821] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.821] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.821] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.821] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.821] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.821] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.821] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.821] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.836] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.836] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.836] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.836] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.836] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.836] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.836] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.836] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.836] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.836] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.836] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.836] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.836] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.836] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.836] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.836] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.836] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.836] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:06:31.836] [INFO] info - request POST : /user
+[2016-04-03 22:06:31.836] [INFO] info - "{\"login\":\"Adriano90\"}"
+[2016-04-03 22:09:35.961] [INFO] info - apigateway up and ready
+[2016-04-03 22:09:39.180] [INFO] info - request POST : /user
+[2016-04-03 22:09:39.181] [INFO] info - "{\n    \"username\":\"Adriano90\",\n    \"company\":\"aidify\"\n}"
+[2016-04-03 22:10:06.179] [INFO] info - apigateway up and ready
+[2016-04-03 22:11:16.258] [INFO] info - apigateway up and ready
+[2016-04-03 22:11:28.376] [INFO] info - request POST : /user
+[2016-04-03 22:11:28.376] [INFO] info - "{\n    \"username\":\"Adriano90\",\n    \"company\":\"aidify\"\n}"
+[2016-04-03 22:11:36.928] [INFO] info - apigateway up and ready
+[2016-04-03 22:11:39.122] [INFO] info - request POST : /user
+[2016-04-03 22:11:39.122] [INFO] info - "{\n    \"username\":\"Adriano90\",\n    \"company\":\"aidify\"\n}"
+[2016-04-03 22:12:12.155] [INFO] info - apigateway up and ready
+[2016-04-03 22:12:27.176] [INFO] info - apigateway up and ready
+[2016-04-03 22:12:28.613] [INFO] info - request POST : /user
+[2016-04-03 22:12:28.613] [INFO] info - "{\n    \"username\":\"Adriano90\",\n    \"company\":\"aidify\"\n}"
+[2016-04-03 22:14:02.301] [INFO] info - apigateway up and ready
+[2016-04-03 22:14:09.646] [INFO] info - request POST : /user
+[2016-04-03 22:14:09.646] [INFO] info - "{\n    \"username\":\"Adriano90\",\n    \"company\":\"aidify\"\n}"
+[2016-04-03 22:14:52.373] [INFO] info - apigateway up and ready
+[2016-04-03 22:15:17.409] [INFO] info - apigateway up and ready
+[2016-04-03 22:15:27.414] [INFO] info - apigateway up and ready
+[2016-04-03 22:15:37.482] [INFO] info - apigateway up and ready
+[2016-04-03 22:15:42.467] [INFO] info - apigateway up and ready
+[2016-04-03 22:15:43.393] [INFO] info - request POST : /user
+[2016-04-03 22:15:43.393] [INFO] info - "{\n    \"username\":\"Adriano90\",\n    \"company\":\"aidify\"\n}"
+[2016-04-03 22:21:22.944] [INFO] info - apigateway up and ready
+[2016-04-03 22:21:47.955] [INFO] info - apigateway up and ready
+[2016-04-03 22:21:57.981] [INFO] info - apigateway up and ready
+[2016-04-03 22:24:05.623] [INFO] info - request POST : /user
+[2016-04-03 22:24:05.623] [INFO] info - "{\n    \"username\":\"Adriano90\",\n    \"company\":\"aidify\"\n}"
+[2016-04-03 22:27:03.898] [INFO] info - request POST : /user
+[2016-04-03 22:27:03.898] [INFO] info - "{\n    \"username\":\"Adriano90\",\n    \"company\":\"aidify\"\n}"
+[2016-04-03 22:29:24.299] [INFO] info - request POST : /user
+[2016-04-03 22:29:24.299] [INFO] info - "{\n    \"username\":\"Adriano90\",\n    \"company\":\"aidify\"\n}"
+[2016-04-03 22:30:10.674] [INFO] info - request GET : /user/6587588
+[2016-04-03 22:30:27.832] [INFO] info - request PUT : /user/6587588
+[2016-04-03 22:30:27.832] [INFO] info - "{\n    \"id\": 6587588,\n    \"login\": \"Adriano90\",\n    \"location\": \"worcccking\"\n}"
+[2016-04-03 22:30:37.052] [INFO] info - request GET : /user/6587588
+[2016-04-03 22:30:47.175] [INFO] info - request PUT : /user/6587588
+[2016-04-03 22:30:47.175] [INFO] info - "{\n    \"id\": 6587588,\n    \"login\": \"Adriano90\",\n    \"location\": \"working\"\n}"
+[2016-04-03 22:30:51.687] [INFO] info - request GET : /user/6587588
