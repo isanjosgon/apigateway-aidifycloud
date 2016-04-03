@@ -3,7 +3,6 @@
 # Logs
 npm-debug.log*
 *.rdb
-*.log
 
 # Runtime data
 pids
