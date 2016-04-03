@@ -5,9 +5,10 @@
 
 class User
 {
-  constructor (id, name, activities) {
+  constructor (id, name, location, activities) {
     this.id = id;
     this.name = name;
+	this.location = location;
 	this.activities = activities
   }
 }

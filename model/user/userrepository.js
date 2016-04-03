@@ -12,7 +12,7 @@ class UserRepository
   create (user) {
     const self = this;
     return new Promise(function (resolve,reject) {
-      self.dataStrategy.create(user,function (err,result) {
+      self.dataStrategy.create(user, function (err,result) {
         if (err) {
           return reject(err);
         }
@@ -22,6 +22,21 @@ class UserRepository
       });
     });
   }
+
+  update(user) {
+    const self = this;
+    return new Promise(function(resolve,reject) {
+      self.dataStrategy.update(user, function(err,result) {
+        if (err) {
+          return reject(err);
+        }
+		
+        resolve(result);
+        self.cacheStrategy.insert(user);
+      });
+    });
+  }
+
   findbyId (id) {
     let self = this;
     return new Promise(function (resolve,reject) {

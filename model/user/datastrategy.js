@@ -11,9 +11,8 @@ class DataStrategy
     this.config = config;
     this.parser = parser;
   }
-  create (user,callback) {
+  create(user,callback) {
     const self = this;
-			console.log("User: %j", user);
     request
       .post(self.config.cloud.githubservice + '/user')
       .send(JSON.stringify(user))
@@ -25,7 +24,22 @@ class DataStrategy
         callback(null, self.parser.userfromjson(res.body.result));
       });
   }
-  getbyId (id,callback) {
+  
+  update(user, callback) {
+	  const self = this;
+	  request
+		.put(self.config.cloud.userservice + '/user/' + user.id)
+		.send(JSON.stringify(self.parser.apiToService(user)))
+		.end(function(err, res) {
+			if(err) {
+				return callback(err);
+			}
+			
+			callback(null, self.parser.userfromjson(res.body.result));
+		});
+  }
+  
+  getbyId(id, callback) {
     const self = this;
     request
       .get(self.config.cloud.userservice + '/user/' + id)
@@ -44,10 +58,9 @@ class DataStrategy
 			.query({ user: user.login})
 			.end(function(err, res) {
 				if (err) {
-					callback(null, self.parser.userfromjson(user));
+					return callback(null, self.parser.userfromjson(user));
 				}
 				
-				console.log("Activities: %j", res.body);
 				user.activities = res.body.result;
 				callback(null, self.parser.userfromjson(user));
 			});

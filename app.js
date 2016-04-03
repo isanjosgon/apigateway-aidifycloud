@@ -16,6 +16,7 @@ const UserRepository = require('./model/user/userrepository');
 
 const GetUserUseCase = require('./usecase/getuser');
 const CreateUserUseCase = require('./usecase/createuser');
+const UpdateUserUseCase = require('./usecase/updateuser');
 const LocateUserUseCase = require('./usecase/locateuser');
 const InvalidateUserUseCase = require('./usecase/invalidateuser');
 
@@ -27,8 +28,9 @@ let userrepo = new UserRepository(dataStrategy,cacheStrategy);
 
 let getUserUseCase = new GetUserUseCase(userrepo);
 let createUserUseCase = new CreateUserUseCase(userrepo);
+let updateUserUseCase = new UpdateUserUseCase(userrepo);
 let locateUserUseCase = new LocateUserUseCase(userrepo);
 let invalidateUserUseCase = new InvalidateUserUseCase(userrepo);
 
-new Server(config.restapi,logger,getUserUseCase,createUserUseCase,locateUserUseCase);
+new Server(config.restapi,logger,getUserUseCase,createUserUseCase,locateUserUseCase, updateUserUseCase);
 new Broker(config.messagebroker,logger,invalidateUserUseCase);

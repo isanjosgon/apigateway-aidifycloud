@@ -11,7 +11,7 @@ class Response
   }
   ok (res,status) {
     this.response.status(status || 200);
-    this.response.send({ result:res });
+    this.response.send(res);
   }
   ko (err,status) {
     this.response.status(status || 500);
