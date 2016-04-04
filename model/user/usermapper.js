@@ -6,13 +6,18 @@
 const User = require('./user');
 const _ = require('lodash');
 const activityMapper = require('./activitymapper');
+const statsMapper = require('./statsmapper');
 
 exports.userfromjson = function(json)
 {
 	let activities;
-	
-	if (json['activities']) {
+	if(json['activities']) {
 		activities = _.map(json['activities'], activityMapper.activityfromjson)
+	}
+	
+	let stats;
+	if(json['stats']) {
+		stats = statsMapper.statsfromjson(json['stats']);
 	}
 	
 	return new User(
@@ -20,7 +25,8 @@ exports.userfromjson = function(json)
 		json['login'],
 		json['location'],
 		json['avatar'],
-		activities
+		activities,
+		stats
 	);
 }
 

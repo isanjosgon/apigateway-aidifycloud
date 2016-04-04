@@ -4,6 +4,7 @@
 'use strict'
 
 const request = require('superagent');
+const async = require('async');
 
 class DataStrategy
 {
@@ -53,17 +54,41 @@ class DataStrategy
 			return callback({message: 'User not found'});
 		}
 		
-		request
-			.get(self.config.cloud.activityservice + '/activity')
-			.query({ user: user.login})
-			.end(function(err, res) {
-				if (err) {
-					return callback(null, self.parser.userfromjson(user));
-				}
-				
-				user.activities = res.body.result;
-				callback(null, self.parser.userfromjson(user));
-			});
+		async.parallel([
+			function(callback) {
+				request
+					.get(self.config.cloud.activityservice + '/activity')
+					.query({ user: user.login})
+					.end(function(err, res) {
+						if (err) {
+							return callback(null, null);
+						}
+
+						callback(null, res.body.result);
+					});
+			},
+			function(callback) {
+				request
+					.get(self.config.cloud.statsservice + '/stats/' + user.login)
+					.end(function(err, res) {
+						if (err) {
+							return callback(null, null);
+						}
+
+						callback(null, res.body.result);
+					});
+			}
+		], function(err, result) {
+			
+			if (err) {
+				console.log("Error retrieving user: %j", err);
+			}
+
+			user.activities = result[0];
+			user.stats = result[1];
+			callback(null, self.parser.userfromjson(user));
+		});
+		
       });
   }
   locate (id,status) {
