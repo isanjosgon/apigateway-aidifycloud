@@ -10,7 +10,8 @@ module.exports.activityfromjson = function(json) {
 		json['repo'],
 		json['points'],
 		json['type'],
-		json['action']
+		json['action'],
+		json['createdAt']
 	);
 
 }
