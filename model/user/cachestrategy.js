@@ -8,17 +8,10 @@ const redis = require('redis');
 class CacheStrategy
 {
   constructor (config) {
-    /*if (process.env.REDISTOGO_URL) {
-      let rtg = require('url').parse(process.env.REDISTOGO_URL);
-      this.client = redis.createClient(rtg.port,rtg.hostname);
-      this.client.auth(rtg.auth.split(':')[1]);*/
-      this.client = redis.createClient(config.messagebroker.port, config.messagebroker.host);
-      this.client.auth(config.messagebroker.pass);
-	  console.log("REDIS CACHE STARTED: %j", config.cache);
-	  this.config = config.cache;
-    /*} else {
-      this.client = redis.createClient();
-    }*/
+      this.client = redis.createClient(config.port, config.host);
+      this.client.auth(config.pass);
+	  console.log("REDIS CACHE STARTED: %j", config);
+	  this.config = config;
   }
   fetch(id, callback) {
 	if (!this.config.active) {

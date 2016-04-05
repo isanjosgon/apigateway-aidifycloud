@@ -22,7 +22,7 @@ const InvalidateUserUseCase = require('./usecase/invalidateuser');
 
 let logger = new Logger(config.logging);
 
-let cacheStrategy = new CacheStrategy(config);
+let cacheStrategy = new CacheStrategy(config.cache);
 let dataStrategy = new DataStrategy(config,UserMapper);
 let userrepo = new UserRepository(dataStrategy,cacheStrategy);
 

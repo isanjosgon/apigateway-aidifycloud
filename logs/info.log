@@ -46,3 +46,11 @@
 [2016-04-05 00:04:57.286] [INFO] info - apigateway up and ready
 [2016-04-05 00:05:17.337] [INFO] info - apigateway up and ready
 [2016-04-05 00:05:20.707] [INFO] info - request GET : /user/6587588
+[2016-04-05 19:34:11.789] [INFO] info - apigateway up and ready
+[2016-04-05 19:36:10.463] [INFO] info - apigateway up and ready
+[2016-04-05 19:36:20.421] [INFO] info - apigateway up and ready
+[2016-04-05 19:36:46.677] [INFO] info - apigateway up and ready
+[2016-04-05 19:37:16.911] [INFO] info - apigateway up and ready
+[2016-04-05 19:37:32.021] [INFO] info - apigateway up and ready
+[2016-04-05 19:38:06.984] [INFO] info - apigateway up and ready
+[2016-04-05 19:38:29.647] [INFO] info - request GET : /user/6587588

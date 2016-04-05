@@ -27,7 +27,10 @@ module.exports = {
     githubservice : process.env.GITSERVICE_ADDRESS
   },
   cache: {
-	active: process.env.CACHE_ACTIVE === 'true'
+	active: process.env.CACHE_ACTIVE === 'true',
+	port: process.env.CACHE_PORT,
+	host: process.env.CACHE_HOST,
+	pass: process.env.CACHE_PASSWORD
   },
   logging : {
     appenders: [{
