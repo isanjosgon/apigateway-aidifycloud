@@ -8,12 +8,8 @@ const redis = require('redis');
 class Broker
 {
   constructor (config,logger,invalidateuser) {
-    /*if (config.host) {
-      this.client = redis.createClient(config.port,config.host);
-      this.client.auth(config.pass);
-    } else {*/
-      this.client = redis.createClient();
-    //}
+    this.client = redis.createClient(config.port,config.host);
+    this.client.auth(config.pass);
     this.client.subscribe('SERVICE:APIGATEWAY');
     this.client.on('message',function (channel,message) {
       let service = channel.split(':')[1];
