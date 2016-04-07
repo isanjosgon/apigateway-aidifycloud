@@ -54,3 +54,24 @@
 [2016-04-05 19:37:32.021] [INFO] info - apigateway up and ready
 [2016-04-05 19:38:06.984] [INFO] info - apigateway up and ready
 [2016-04-05 19:38:29.647] [INFO] info - request GET : /user/6587588
+[2016-04-05 20:20:29.707] [INFO] info - apigateway up and ready
+[2016-04-07 08:06:51.810] [INFO] info - apigateway up and ready
+[2016-04-07 08:08:55.661] [INFO] info - apigateway up and ready
+[2016-04-07 08:10:20.832] [INFO] info - apigateway up and ready
+[2016-04-07 08:14:04.450] [INFO] info - apigateway up and ready
+[2016-04-07 08:16:28.354] [INFO] info - request POST : /user
+[2016-04-07 08:16:28.354] [INFO] info - "{\n    \"login\": \"Adriano90\"\n}"
+[2016-04-07 08:17:18.211] [INFO] info - apigateway up and ready
+[2016-04-07 08:17:28.217] [INFO] info - request POST : /user
+[2016-04-07 08:17:28.217] [INFO] info - "{\n    \"login\": \"Adriano90\"\n}"
+[2016-04-07 08:17:32.016] [INFO] info - request POST : /user
+[2016-04-07 08:17:32.016] [INFO] info - "{\n    \"login\": \"Adriano90\"\n}"
+[2016-04-07 08:18:12.644] [INFO] info - request POST : /user
+[2016-04-07 08:18:12.644] [INFO] info - "{\n    \"username\":\"Adriano90\",\n    \"company\":\"aidify\"\n}"
+[2016-04-07 08:18:45.405] [INFO] info - request GET : /user/6587588
+[2016-04-07 08:19:23.231] [INFO] info - request PUT : /user/6587588
+[2016-04-07 08:19:23.231] [INFO] info - "{\n    \"id\": 6587588,\n    \"login\": \"Adriano90\",\n    \"name\": \"Juan Herrador\",\n    \"location\": \"working\"\n}"
+[2016-04-07 08:22:58.897] [INFO] info - request PUT : /user/6587588
+[2016-04-07 08:22:58.897] [INFO] info - "{\n    \"id\": 6587588,\n    \"login\": \"Adriano90\",\n    \"avatar\": \"https://avatars.githubusercontent.com/u/6587588?v=3\",\n    \"location\": \"working\"\n}"
+[2016-04-07 08:24:05.007] [INFO] info - request PUT : /user/6587588
+[2016-04-07 08:24:05.007] [INFO] info - "{\n    \"id\": 6587588,\n    \"name\": \"Adriano90\",\n    \"realName\": \"Juan Herrador\",\n    \"avatar\": \"https://avatars.githubusercontent.com/u/6587588?v=3\",\n    \"location\": \"working\"\n}"

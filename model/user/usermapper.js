@@ -23,6 +23,7 @@ exports.userfromjson = function(json)
 	return new User(
 		json['id'],
 		json['login'],
+		json['name'],
 		json['location'],
 		json['avatar'],
 		activities,
@@ -35,6 +36,7 @@ exports.apiToUpdateService = function(user) {
 	return {
 		id: user.id,
 		login: user.name,
+		name: user.realName,
 		location: user.location,
 		avatar: user.avatar
 	};
