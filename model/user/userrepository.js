@@ -64,9 +64,10 @@ class UserRepository
     return new Promise(function (resolve,reject) {
       self.cacheStrategy.invalidate(name,function (err) {
         if (err) {
-          return;
+          return err;
         }
-        self.findbyId(name);
+        
+		return;
       });
     });
   }

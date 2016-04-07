@@ -215,3 +215,6 @@
 [2016-04-07 22:39:29.182] [INFO] info - request PUT : /user/Adriano90
 [2016-04-07 22:39:29.182] [INFO] info - "{\n    \"id\": 6587588,\n    \"name\": \"Adriano90\",\n    \"realName\": \"Juan Herrador\",\n    \"avatar\": \"https://avatars.githubusercontent.com/u/6587588?v=3\",\n    \"location\": \"working\"\n}"
 [2016-04-07 22:39:34.677] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 22:47:21.061] [INFO] info - apigateway up and ready
+[2016-04-07 23:02:15.063] [INFO] info - apigateway up and ready
+[2016-04-07 23:05:57.971] [INFO] info - apigateway up and ready
