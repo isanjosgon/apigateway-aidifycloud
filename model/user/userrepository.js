@@ -18,7 +18,7 @@ class UserRepository
         }
 		
         resolve(result);
-        self.cacheStrategy.insert(user);
+        self.cacheStrategy.insert(result);
       });
     });
   }
@@ -32,22 +32,22 @@ class UserRepository
         }
 		
         resolve(result);
-        self.cacheStrategy.insert(user);
+        self.cacheStrategy.insert(result);
       });
     });
   }
 
-  findbyId (id) {
+  findbyName(name) {
     let self = this;
     return new Promise(function (resolve,reject) {
-      self.cacheStrategy.fetch(id, function (err,user) {
+      self.cacheStrategy.fetch(name, function (err,user) {
         if (err) {
           return reject(err);
         }
         if (user) {
           return resolve(user);
         }
-        self.dataStrategy.getbyId(id,function (err,user) {
+        self.dataStrategy.getbyName(name,function (err,user) {
           if (err) {
 			console.log("err %j", err);
             return reject(err);
@@ -58,25 +58,15 @@ class UserRepository
       });
     });
   }
-  locate (id,status) {
+
+  invalidate(name) {
     const self = this;
     return new Promise(function (resolve,reject) {
-      self.dataStrategy.locate(function (err,user) {
-        if (err) {
-          return reject(err);
-        }
-        resolve(user);
-      });
-    });
-  }
-  invalidate (id) {
-    const self = this;
-    return new Promise(function (resolve,reject) {
-      self.cacheStrategy.invalidate(id,function (err) {
+      self.cacheStrategy.invalidate(name,function (err) {
         if (err) {
           return;
         }
-        self.findbyId(id);
+        self.findbyId(name);
       });
     });
   }

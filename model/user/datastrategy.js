@@ -21,39 +21,43 @@ class DataStrategy
         if (err) {
           return callback(err);
         }
-		
-        callback(null, self.parser.userfromjson(res.body.result));
+
+		self._getAllUserData(res.body.result, callback);
       });
   }
   
-  update(user, callback) {
+	update(user, callback) {
 	  const self = this;
 	  request
-		.put(self.config.cloud.userservice + '/user/' + user.id)
+		.put(self.config.cloud.userservice + '/user/' + user.name)
 		.send(JSON.stringify(self.parser.apiToUpdateService(user)))
 		.end(function(err, res) {
 			if(err) {
 				return callback(err);
 			}
-			
-			callback(null, self.parser.userfromjson(res.body.result));
+
+			self._getAllUserData(res.body.result, callback);
 		});
-  }
-  
-  getbyId(id, callback) {
+	}
+
+  getbyName(name, callback) {
     const self = this;
     request
-      .get(self.config.cloud.userservice + '/user/' + id)
+      .get(self.config.cloud.userservice + '/user/' + name)
       .end(function (err, res) {
         if (err) {
           return callback(err);
         }
-
-		let user = res.body.result;
+		
+		self._getAllUserData(res.body.result, callback);
+      });
+  }
+  
+	_getAllUserData(user, callback) {
+		const self = this;
 		if (!user) {
 			return callback({message: 'User not found'});
 		}
-		
 		async.parallel([
 			function(callback) {
 				request
@@ -61,7 +65,7 @@ class DataStrategy
 					.query({ user: user.login})
 					.end(function(err, res) {
 						if (err) {
-							return callback(null, null);
+							return callback();
 						}
 
 						callback(null, res.body.result);
@@ -72,7 +76,7 @@ class DataStrategy
 					.get(self.config.cloud.statsservice + '/stats/' + user.login)
 					.end(function(err, res) {
 						if (err) {
-							return callback(null, null);
+							return callback();
 						}
 
 						callback(null, res.body.result);
@@ -88,21 +92,7 @@ class DataStrategy
 			user.stats = result[1];
 			callback(null, self.parser.userfromjson(user));
 		});
-		
-      });
-  }
-  locate (id,status) {
-    const self = this;
-    request
-      .post(self.config.cloud.userservice + '/user/' + id + '/status')
-      .send(status)
-      .end(function (err,res) {
-        if (err) {
-          return callback(err);
-        }
-        callback(null, res.body);
-      });
-  }
+	}
 }
 
 module.exports = DataStrategy;

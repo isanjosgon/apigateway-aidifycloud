@@ -8,9 +8,9 @@ class InvalidateUserUseCase
   constructor (repo,res) {
     this.repo = repo;
   }
-  execute (id) {
+  execute(name) {
     this.repo
-      .invalidate(id)
+      .invalidate(name)
       .then(function (res) {
         res ? res.ok(res) : null;
       })

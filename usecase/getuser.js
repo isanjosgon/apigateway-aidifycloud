@@ -11,9 +11,8 @@ class GetUserUseCase
     this.repo = repo;
   }
   execute (params,res) {
-		console.log("User: " + params.id);
     this.repo
-      .findbyId(params.id)
+      .findbyName(params.name)
       .then(function (user) {
         res && res.ok(user);
       })

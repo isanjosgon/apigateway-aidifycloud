@@ -75,3 +75,143 @@
 [2016-04-07 08:22:58.897] [INFO] info - "{\n    \"id\": 6587588,\n    \"login\": \"Adriano90\",\n    \"avatar\": \"https://avatars.githubusercontent.com/u/6587588?v=3\",\n    \"location\": \"working\"\n}"
 [2016-04-07 08:24:05.007] [INFO] info - request PUT : /user/6587588
 [2016-04-07 08:24:05.007] [INFO] info - "{\n    \"id\": 6587588,\n    \"name\": \"Adriano90\",\n    \"realName\": \"Juan Herrador\",\n    \"avatar\": \"https://avatars.githubusercontent.com/u/6587588?v=3\",\n    \"location\": \"working\"\n}"
+[2016-04-07 21:03:10.309] [INFO] info - apigateway up and ready
+[2016-04-07 21:03:15.908] [INFO] info - request POST : /user
+[2016-04-07 21:03:15.908] [INFO] info - "{\n    \"username\":\"hugoj-peral\",\n    \"company\":\"aidify\"\n}"
+[2016-04-07 21:09:02.573] [INFO] info - apigateway up and ready
+[2016-04-07 21:09:32.609] [INFO] info - apigateway up and ready
+[2016-04-07 21:09:42.616] [INFO] info - apigateway up and ready
+[2016-04-07 21:14:13.009] [INFO] info - apigateway up and ready
+[2016-04-07 21:16:13.160] [INFO] info - apigateway up and ready
+[2016-04-07 21:24:43.915] [INFO] info - apigateway up and ready
+[2016-04-07 21:25:13.932] [INFO] info - apigateway up and ready
+[2016-04-07 21:25:50.334] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 21:26:34.048] [INFO] info - apigateway up and ready
+[2016-04-07 21:28:04.078] [INFO] info - apigateway up and ready
+[2016-04-07 21:28:06.235] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 21:28:18.513] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 21:28:49.343] [INFO] info - apigateway up and ready
+[2016-04-07 21:28:51.340] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 21:29:44.436] [INFO] info - apigateway up and ready
+[2016-04-07 21:29:47.222] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 21:29:59.427] [INFO] info - apigateway up and ready
+[2016-04-07 21:30:04.118] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 21:30:14.426] [INFO] info - apigateway up and ready
+[2016-04-07 21:38:40.163] [INFO] info - apigateway up and ready
+[2016-04-07 21:39:05.229] [INFO] info - apigateway up and ready
+[2016-04-07 21:39:30.256] [INFO] info - apigateway up and ready
+[2016-04-07 21:40:00.288] [INFO] info - apigateway up and ready
+[2016-04-07 21:40:14.557] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 21:41:30.429] [INFO] info - apigateway up and ready
+[2016-04-07 21:41:32.474] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 21:41:45.409] [INFO] info - apigateway up and ready
+[2016-04-07 21:42:25.460] [INFO] info - apigateway up and ready
+[2016-04-07 21:42:30.474] [INFO] info - apigateway up and ready
+[2016-04-07 21:42:55.508] [INFO] info - apigateway up and ready
+[2016-04-07 21:43:03.852] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 21:43:35.600] [INFO] info - apigateway up and ready
+[2016-04-07 21:43:50.581] [INFO] info - apigateway up and ready
+[2016-04-07 21:43:52.957] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 21:44:10.608] [INFO] info - apigateway up and ready
+[2016-04-07 21:44:20.665] [INFO] info - apigateway up and ready
+[2016-04-07 21:44:25.648] [INFO] info - apigateway up and ready
+[2016-04-07 21:44:50.682] [INFO] info - apigateway up and ready
+[2016-04-07 21:44:51.551] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 21:45:35.727] [INFO] info - apigateway up and ready
+[2016-04-07 21:45:36.873] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 21:45:50.773] [INFO] info - apigateway up and ready
+[2016-04-07 21:46:05.777] [INFO] info - apigateway up and ready
+[2016-04-07 21:46:30.809] [INFO] info - apigateway up and ready
+[2016-04-07 21:46:40.841] [INFO] info - apigateway up and ready
+[2016-04-07 21:46:43.638] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 21:47:10.888] [INFO] info - apigateway up and ready
+[2016-04-07 21:47:13.897] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 21:47:25.906] [INFO] info - apigateway up and ready
+[2016-04-07 21:47:28.750] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 21:48:10.953] [INFO] info - apigateway up and ready
+[2016-04-07 21:49:06.057] [INFO] info - apigateway up and ready
+[2016-04-07 21:51:21.210] [INFO] info - apigateway up and ready
+[2016-04-07 21:52:01.278] [INFO] info - apigateway up and ready
+[2016-04-07 21:53:37.530] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 21:54:16.450] [INFO] info - apigateway up and ready
+[2016-04-07 21:54:32.695] [INFO] info - apigateway up and ready
+[2016-04-07 21:54:34.741] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 21:55:02.919] [INFO] info - apigateway up and ready
+[2016-04-07 21:55:12.937] [INFO] info - apigateway up and ready
+[2016-04-07 21:55:18.614] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 21:55:33.918] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 21:55:42.195] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 21:56:03.005] [INFO] info - apigateway up and ready
+[2016-04-07 21:56:28.025] [INFO] info - apigateway up and ready
+[2016-04-07 21:56:33.076] [INFO] info - apigateway up and ready
+[2016-04-07 21:56:48.069] [INFO] info - apigateway up and ready
+[2016-04-07 21:56:52.911] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 21:58:44.169] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 21:58:56.667] [INFO] info - request POST : /user
+[2016-04-07 21:58:56.667] [INFO] info - "{\n    \"username\":\"Adriano90\",\n    \"company\":\"aidify\"\n}"
+[2016-04-07 21:59:41.938] [INFO] info - request PUT : /user/6587588
+[2016-04-07 21:59:41.938] [INFO] info - "{\n    \"id\": 6587588,\n    \"name\": \"Adriano90\",\n    \"realName\": \"Juan Herrador\",\n    \"avatar\": \"https://avatars.githubusercontent.com/u/6587588?v=3\",\n    \"location\": \"ooo\"\n}"
+[2016-04-07 21:59:51.151] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 21:59:54.881] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 22:00:04.151] [INFO] info - request PUT : /user/6587588
+[2016-04-07 22:00:04.151] [INFO] info - "{\n    \"id\": 6587588,\n    \"name\": \"Adriano90\",\n    \"realName\": \"Juan Herrador\",\n    \"avatar\": \"https://avatars.githubusercontent.com/u/6587588?v=3\",\n    \"location\": \"ooo\"\n}"
+[2016-04-07 22:00:11.245] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 22:00:28.424] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 22:01:03.931] [INFO] info - apigateway up and ready
+[2016-04-07 22:01:14.935] [INFO] info - request PUT : /user/6587588
+[2016-04-07 22:01:14.935] [INFO] info - "{\n    \"id\": 6587588,\n    \"name\": \"Adriano90\",\n    \"realName\": \"Juan Herrador\",\n    \"avatar\": \"https://avatars.githubusercontent.com/u/6587588?v=3\",\n    \"location\": \"working\"\n}"
+[2016-04-07 22:01:24.070] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 22:01:29.514] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 22:01:59.012] [INFO] info - apigateway up and ready
+[2016-04-07 22:02:01.577] [INFO] info - request PUT : /user/6587588
+[2016-04-07 22:02:01.577] [INFO] info - "{\n    \"id\": 6587588,\n    \"name\": \"Adriano90\",\n    \"realName\": \"Juan Herrador\",\n    \"avatar\": \"https://avatars.githubusercontent.com/u/6587588?v=3\",\n    \"location\": \"working\"\n}"
+[2016-04-07 22:02:08.320] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 22:02:16.302] [INFO] info - request PUT : /user/6587588
+[2016-04-07 22:02:16.302] [INFO] info - "{\n    \"id\": 6587588,\n    \"name\": \"Adriano90\",\n    \"realName\": \"Juan Herrador\",\n    \"avatar\": \"https://avatars.githubusercontent.com/u/6587588?v=3\",\n    \"location\": \"n\"\n}"
+[2016-04-07 22:02:23.867] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 22:03:10.707] [INFO] info - request PUT : /user/6587588
+[2016-04-07 22:03:10.707] [INFO] info - "{\n    \"id\": 6587588,\n    \"name\": \"Adriano90\",\n    \"realName\": \"Juan Herrador\",\n    \"avatar\": \"https://avatars.githubusercontent.com/u/6587588?v=3\",\n    \"location\": \"working\"\n}"
+[2016-04-07 22:03:31.544] [INFO] info - request POST : /user
+[2016-04-07 22:03:31.544] [INFO] info - "{\n    \"username\":\"Adriano90\",\n    \"company\":\"aidify\"\n}"
+[2016-04-07 22:04:19.202] [INFO] info - apigateway up and ready
+[2016-04-07 22:04:20.209] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 22:04:44.230] [INFO] info - apigateway up and ready
+[2016-04-07 22:05:02.719] [INFO] info - request PUT : /user/6587588
+[2016-04-07 22:05:02.719] [INFO] info - "{\n    \"id\": 6587588,\n    \"name\": \"Adriano90\",\n    \"realName\": \"Juan Herrador\",\n    \"avatar\": \"https://avatars.githubusercontent.com/u/6587588?v=3\",\n    \"location\": \"working\"\n}"
+[2016-04-07 22:05:09.115] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 22:05:12.741] [INFO] info - request POST : /user
+[2016-04-07 22:05:12.741] [INFO] info - "{\n    \"username\":\"Adriano90\",\n    \"company\":\"aidify\"\n}"
+[2016-04-07 22:05:18.967] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 22:05:29.291] [INFO] info - apigateway up and ready
+[2016-04-07 22:05:34.108] [INFO] info - request POST : /user
+[2016-04-07 22:05:34.108] [INFO] info - "{\n    \"username\":\"Adriano90\",\n    \"company\":\"aidify\"\n}"
+[2016-04-07 22:05:39.226] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 22:07:19.493] [INFO] info - apigateway up and ready
+[2016-04-07 22:07:49.475] [INFO] info - apigateway up and ready
+[2016-04-07 22:09:26.044] [INFO] info - request PUT : /user/Adriano90
+[2016-04-07 22:09:26.044] [INFO] info - "{\n    \"id\": 6587588,\n    \"name\": \"Adriano90\",\n    \"realName\": \"Juan Herrador\",\n    \"avatar\": \"https://avatars.githubusercontent.com/u/6587588?v=3\",\n    \"location\": \"2\"\n}"
+[2016-04-07 22:09:32.144] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 22:10:29.731] [INFO] info - apigateway up and ready
+[2016-04-07 22:10:35.654] [INFO] info - request POST : /user
+[2016-04-07 22:10:35.654] [INFO] info - "{\n    \"username\":\"Adriano90\",\n    \"company\":\"aidify\"\n}"
+[2016-04-07 22:10:41.918] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 22:10:54.534] [INFO] info - request PUT : /user/Adriano90
+[2016-04-07 22:10:54.534] [INFO] info - "{\n    \"id\": 6587588,\n    \"name\": \"Adriano90\",\n    \"realName\": \"Juan Herrador\",\n    \"avatar\": \"https://avatars.githubusercontent.com/u/6587588?v=3\",\n    \"location\": \"2\"\n}"
+[2016-04-07 22:11:02.733] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 22:11:12.938] [INFO] info - request PUT : /user/Adriano90
+[2016-04-07 22:11:12.938] [INFO] info - "{\n    \"id\": 6587588,\n    \"name\": \"Adriano90\",\n    \"realName\": \"Juan Herrador\",\n    \"avatar\": \"https://avatars.githubusercontent.com/u/6587588?v=3\",\n    \"location\": \"working\"\n}"
+[2016-04-07 22:11:17.174] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 22:20:41.925] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 22:20:50.339] [INFO] info - request PUT : /user/Adriano90
+[2016-04-07 22:20:50.340] [INFO] info - "{\n    \"id\": 6587588,\n    \"name\": \"Adriano90\",\n    \"realName\": \"Juan Herrador\",\n    \"avatar\": \"https://avatars.githubusercontent.com/u/6587588?v=3\",\n    \"location\": \"working\"\n}"
+[2016-04-07 22:20:55.328] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 22:22:23.033] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 22:33:36.657] [INFO] info - apigateway up and ready
+[2016-04-07 22:34:21.704] [INFO] info - apigateway up and ready
+[2016-04-07 22:39:08.047] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 22:39:15.373] [INFO] info - request POST : /user
+[2016-04-07 22:39:15.373] [INFO] info - "{\n    \"username\":\"Adriano90\",\n    \"company\":\"aidify\"\n}"
+[2016-04-07 22:39:24.545] [INFO] info - request GET : /user/Adriano90
+[2016-04-07 22:39:29.182] [INFO] info - request PUT : /user/Adriano90
+[2016-04-07 22:39:29.182] [INFO] info - "{\n    \"id\": 6587588,\n    \"name\": \"Adriano90\",\n    \"realName\": \"Juan Herrador\",\n    \"avatar\": \"https://avatars.githubusercontent.com/u/6587588?v=3\",\n    \"location\": \"working\"\n}"
+[2016-04-07 22:39:34.677] [INFO] info - request GET : /user/Adriano90
