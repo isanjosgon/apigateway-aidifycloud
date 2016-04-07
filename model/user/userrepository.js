@@ -52,8 +52,8 @@ class UserRepository
           if (err) {
 			console.log("err %j", err);
             return reject(err);
-          
-		console.log("From network %j", user);
+          }
+		  console.log("From network %j", user);
           resolve(user);
           self.cacheStrategy.insert(user);
         });
