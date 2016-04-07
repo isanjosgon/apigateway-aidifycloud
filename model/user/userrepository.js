@@ -44,7 +44,7 @@ class UserRepository
         if (err) {
           return reject(err);
         }
-		console.log("From cache %j", user);
+
         if (user) {
           return resolve(user);
         }
@@ -53,7 +53,7 @@ class UserRepository
 			console.log("err %j", err);
             return reject(err);
           }
-		  console.log("From network %j", user);
+
           resolve(user);
           self.cacheStrategy.insert(user);
         });
