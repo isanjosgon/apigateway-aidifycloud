@@ -11,7 +11,8 @@ module.exports.activityfromjson = function(json) {
 		json['points'],
 		json['type'],
 		json['action'],
-		json['createdAt']
+		json['createdAt'],
+		json['affectedStats']
 	);
 
 }
