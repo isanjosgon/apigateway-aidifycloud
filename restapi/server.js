@@ -46,6 +46,10 @@ class Server
       updateuser.execute(JSON.parse(req.body), new Response(res,logger));
     });
 
+	api.get(/\/images\/?.*/, restify.serveStatic({
+		directory: __dirname + '/public'
+	}));
+
     api.listen(config.port,function () {
       logger.log(config.name + ' up and ready');
     });
