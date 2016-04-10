@@ -5,7 +5,6 @@
 
 const config = require('./config');
 const Logger = require('./interface/logger');
-const healthcheck = require('./interface/healthcheck');
 
 const Server = require('./restapi/server');
 const Broker = require('./messagebroker/broker');
@@ -22,8 +21,6 @@ const InvalidateUserUseCase = require('./usecase/invalidateuser');
 
 let logger = new Logger(config.logging);
 
-healthcheck(config.cloud, logger);
-
 let cacheStrategy = new CacheStrategy(config.cache);
 let dataStrategy = new DataStrategy(config,UserMapper);
 let userrepo = new UserRepository(dataStrategy,cacheStrategy);
@@ -35,3 +32,11 @@ let invalidateUserUseCase = new InvalidateUserUseCase(userrepo);
 
 new Server(config.restapi,logger,getUserUseCase,createUserUseCase, updateUserUseCase);
 new Broker(config.messagebroker,logger,invalidateUserUseCase);
+
+// Healthcheck Cron bootstrap
+const HealthCheck = require('./interface/healthcheck');
+const Cron = require('./interface/cron.js');
+
+let healthCheck = new HealthCheck(config.cloud, logger);
+
+new Cron(logger, healthCheck, config.cron);

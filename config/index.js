@@ -10,6 +10,9 @@ env(__dirname + '/.' + file);
 
 module.exports = {
   environment : process.env.NODE_ENV || 'dev',
+  cron : {
+	expression : process.env.CRON_EXPRESSION
+  },
   restapi : {
     port : process.env.PORT || 5001,
     name : config.name,

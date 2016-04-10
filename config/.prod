@@ -16,3 +16,6 @@ CACHE_ACTIVE=true
 CACHE_HOST=pub-redis-13372.us-east-1-4.3.ec2.garantiadata.com
 CACHE_PORT=13372
 CACHE_PASSWORD=realityhack-challenge-3
+
+#CRON
+CRON_EXPRESSION=0 */15 * * * *
