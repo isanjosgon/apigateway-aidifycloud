@@ -24,7 +24,9 @@ module.exports = {
     userservice : process.env.USERMANAGEMENT_ADDRESS,
     statsservice : process.env.STATSMANAGEMENT_ADDRESS,
     activityservice : process.env.ACTIVITYMANAGEMENT_ADDRESS,
-    githubservice : process.env.GITSERVICE_ADDRESS
+    githubservice : process.env.GITSERVICE_ADDRESS,
+	pointsservice : process.env.POINTSMANAGEMENT_SERVICE,
+	slackservice : process.env.SLACKMANAGEMENT_SERVICE
   },
   cache: {
 	active: process.env.CACHE_ACTIVE === 'true',

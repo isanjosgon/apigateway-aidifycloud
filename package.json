@@ -16,7 +16,7 @@
   "author": "Isra San Jose Gonzalez",
   "license": "MIT",
   "dependencies": {
-    "async": "^2.0.0-rc.2",
+    "async": "^2.0.0-rc.3",
     "lodash": "4.2.1",
     "log4js": "0.6.33",
     "node-env-file": "0.1.8",

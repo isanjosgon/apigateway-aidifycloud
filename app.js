@@ -5,6 +5,7 @@
 
 const config = require('./config');
 const Logger = require('./interface/logger');
+const healthcheck = require('./interface/healthcheck');
 
 const Server = require('./restapi/server');
 const Broker = require('./messagebroker/broker');
@@ -20,6 +21,8 @@ const UpdateUserUseCase = require('./usecase/updateuser');
 const InvalidateUserUseCase = require('./usecase/invalidateuser');
 
 let logger = new Logger(config.logging);
+
+healthcheck(config.cloud, logger);
 
 let cacheStrategy = new CacheStrategy(config.cache);
 let dataStrategy = new DataStrategy(config,UserMapper);
