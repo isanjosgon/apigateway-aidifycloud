@@ -34,7 +34,7 @@ class Server
         logger.log('request POST : /user');
         logger.log(JSON.stringify(req.body));
       }
-      createuser.execute(JSON.parse(req.body),new Response(res,logger));
+      createuser.execute(req.body,new Response(res,logger));
     });
 	
     api.put('/user/:name',function (req,res) {
@@ -43,7 +43,7 @@ class Server
         logger.log(JSON.stringify(req.body));
       }
 	  
-      updateuser.execute(JSON.parse(req.body), new Response(res,logger));
+      updateuser.execute(req.body, new Response(res,logger));
     });
 
 	api.get(/\/images\/?.*/, restify.serveStatic({
