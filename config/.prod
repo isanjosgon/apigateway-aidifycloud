@@ -18,4 +18,4 @@ CACHE_PORT=13372
 CACHE_PASSWORD=realityhack-challenge-3
 
 #CRON
-CRON_EXPRESSION=*/10 * * * * *
+CRON_EXPRESSION=0 */15 * * * *
